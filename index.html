@@ -83,7 +83,7 @@
 
             try {
                 // Send the file to the backend
-                const response = await fetch("https://<your-fastapi-endpoint>/api/process_document", {
+                const response = await fetch("https://testinggenai-pdf.onrender.com/api/process_document", {
                     method: "POST",
                     body: formData,
                 });
